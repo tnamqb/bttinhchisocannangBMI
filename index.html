@@ -8,9 +8,9 @@
 </head>
 <body>
     <script>
-        let wth = prompt('Nhap can nang:');
-        let hght =prompt('Nhap chieu cao:');
-        let bmi = ( wth / ( hght *hght ));
+        let wth = prompt('Nhap can nang (kg):');
+        let hght =prompt('Nhap chieu cao (cm):');
+        let bmi = ( wth / ( hght *hght /100));
         if (bmi < 18)
                 alert("Underweight");
             else if (bmi < 25.0)
